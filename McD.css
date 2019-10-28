@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
+main {
+    display: flex;
+   
+}
+header {
+    width: 100vw;
+    height: 300px;
+    overflow: hidden;
+}
 .clown {
     width: 100%;
     height: 200px;
@@ -16,10 +24,11 @@
     background-color: #E4A770;
 }
 
+
 .wendy,
-.product {
-    height: 600px;
-    width: 40%;
+.product-wrapper {
+    
+    width: 50%;
     margin: 20px;
     border: 4px solid black;
 }
@@ -53,8 +62,8 @@
 }
 
 .product-wrapper {
-    width: 100%;
-    height: 100px;
+    
+    
     background-color: #DA291C;
 }
 
